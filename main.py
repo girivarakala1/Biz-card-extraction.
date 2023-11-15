@@ -14,7 +14,7 @@ import io
 mydb=mysql.connector.connect(
     user='root',
     host='localhost',
-    password='Samuel@151299',auth_plugin='mysql_native_password')
+    password='Butterfly@1211',auth_plugin='mysql_native_password')
 
 mycursor=mydb.cursor()
 mycursor.execute('CREATE DATABASE if not exists bizcardx_db')
